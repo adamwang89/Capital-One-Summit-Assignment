@@ -1,0 +1,44 @@
+.event{
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    height: 40px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+}
+
+.event h1{
+    font-size: 15px;
+    height:40px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.info{
+    height: auto;
+    min-height: 300px
+}
+
+.info-container{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.info-image{
+    width: 450px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.info-h1{
+    color: black;
+    font-size: 15px;
+    overflow: hidden;
+}
+

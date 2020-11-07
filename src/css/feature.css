@@ -1,0 +1,63 @@
+.user{
+    width: 100%;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    height: 100%;
+}
+
+.user-main{
+    padding: 80px;
+    padding-top: 45px;
+    background-color: #EDEDED;
+}
+
+
+/* User Content */
+.user-main-content{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.event-container{
+    margin: auto;
+    width: 100%;
+    margin-top: 10px
+}
+
+/* User-Add Content */ 
+.user-main-form{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.user-main-form-row{
+    text-align: center;
+}
+
+.form-input-group2{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+}
+.user-main-form .user-main-fg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-main-form-button-group{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.user-main-form-button{
+    width: 30%;
+    border-radius: 20px;
+    background-color: #D9594C;
+    border-color: #D9594C;
+}
