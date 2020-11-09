@@ -46,7 +46,7 @@ export default class feature extends Component {
 
   componentDidMount(){
       Axios
-        .get("https://newsapi.org/v2/top-headlines?country=us&apiKey=171fd2e3a85a4d02bab46298832ebc10&category=technology")
+        .get("https://newsapi.org/v2/top-headlines?country=us&apiKey=78b9d599c4f94f8fa3afb1a5458928d6&category=technology")
         .then((res) => {
             console.log(res.data.articles)
             this.setState({articles: res.data.articles})
