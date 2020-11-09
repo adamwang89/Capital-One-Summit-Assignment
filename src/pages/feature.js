@@ -14,7 +14,7 @@ export default class feature extends Component {
   technologyClick = () => {
       this.setState({topic: "Technology",});
       Axios
-        .get("https://newsapi.org/v2/top-headlines?country=us&apiKey=171fd2e3a85a4d02bab46298832ebc10&category=technology")
+        .get("https://newsapi.org/v2/top-headlines?country=us&apiKey=78b9d599c4f94f8fa3afb1a5458928d6&category=technology")
         .then((res) => {
             console.log(res.data.articles)
             this.setState({articles: res.data.articles})
@@ -25,7 +25,7 @@ export default class feature extends Component {
   entertainmentClick = () => {
     this.setState({topic: "Entertainment",});
     Axios
-        .get("https://newsapi.org/v2/top-headlines?country=us&apiKey=171fd2e3a85a4d02bab46298832ebc10&category=entertainment")
+        .get("https://newsapi.org/v2/top-headlines?country=us&apiKey=78b9d599c4f94f8fa3afb1a5458928d6&category=entertainment")
         .then((res) => {
             console.log(res.data.articles)
             this.setState({articles: res.data.articles})
@@ -36,7 +36,7 @@ export default class feature extends Component {
   sportsClick = () => {
     this.setState({topic: "Sports",});
     Axios
-        .get("https://newsapi.org/v2/top-headlines?country=us&apiKey=171fd2e3a85a4d02bab46298832ebc10&category=sports")
+        .get("https://newsapi.org/v2/top-headlines?country=us&apiKey=78b9d599c4f94f8fa3afb1a5458928d6&category=sports")
         .then((res) => {
             console.log(res.data.articles)
             this.setState({articles: res.data.articles})
